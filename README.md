@@ -80,11 +80,4 @@ Special thanks to all contributors to this project:
 - **Riya Jalan** ([GitHub](https://github.com/Riya-jalan))
 - **Ravi N** ([GitHub](https://github.com/Ravinagraj01))
 
-## 🤝 Contributing
-
-Contributions are welcome! Open an issue or submit a pull request to propose changes.
-
-## 📄 License
-
-Licensed under the [Your License Here].
 
