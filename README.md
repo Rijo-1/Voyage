@@ -77,7 +77,8 @@ Explore Voyage’s features with the following screenshots:
 
 Special thanks to all contributors to this project:
 
-- **Riya Jalan** ([GitHub](https://github.com/Riya-jalan))
 - **Ravi N** ([GitHub](https://github.com/Ravinagraj01))
+- **Riya Jalan** ([GitHub](https://github.com/Riya-jalan))
+
 
 
