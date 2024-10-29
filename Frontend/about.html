@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Voyage</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style3.css">
+    <style>
+        body {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    position: relative;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+body::before {
+    content: "";
+    position: fixed; /* Changed from absolute to fixed */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('photo-1575986767340-5d17ae767ab0.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.3; /* Decrease opacity */
+    background-color: rgba(0, 0, 0, 0.5); /* Add darker tint */
+    z-index: -1; /* Ensure the pseudo-element is behind the content */
+}
+
+		
+        .navbar-brand, .nav-link {
+            color: #f00 !important; /* Red text for links */
+        }
+        .navbar-brand {
+            font-weight: bold; /* Bold the Voyage text */
+        }
+        .navbar-brand:hover, .nav-link:hover {
+            color: #ff6347 !important; /* Lighter red on hover */
+        }
+        .title1 {
+            margin-top: 50px; /* Add margin to the top */
+        }
+        .about_us {
+            color: #f9f1f1; /* Light gray text for the description */
+            font-size: 18px;
+            line-height: 1.5;
+            text-align: center; /* Center the text */
+            padding : 20px;
+			padding-left: 330px;
+			padding-right: 330px;
+            font-family: Arial, sans-serif; /* Change font to Arial */
+            margin-top: 20px; /* Add margin to the top */
+            margin-bottom: 50px; /* Add margin to the bottom */
+        }
+        .image-container {
+            text-align: center;
+            margin-bottom: 20px; /* Add margin to the bottom */
+        }
+        .image-container img {
+            width: 600px; /* Adjust image width as needed */
+            height: auto;
+            margin-bottom: 10px; /* Add margin to the bottom */
+			border-radius: 6px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-body-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><h1 style="color: red;">Voyage</h1></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="homepage.html" style="color: white;">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: white;">Help</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.php" style="color: white;">Log in </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="title1">
+        <div class="image-container">
+            <img src="./photo-1575986767340-5d17ae767ab0.avif" alt="Image Description">
+        </div>
+        <div class="about_us">
+            <p>
+                Welcome to Voyage, your ultimate travel companion! Our platform is designed to assist travelers in exploring and discovering popular tourist destinations worldwide. Whether you're planning your next adventure or seeking inspiration for your bucket list, Voyage has you covered.
+            </p>
+            <p>
+                Upon visiting our website, users are greeted with a user-friendly interface and the option to create a personalized profile during login. This profile allows you to share details like your name and location, enhancing your experience on Voyage.
+            </p>
+            <p>
+                Once logged in, you gain access to our extensive database of tourist destinations, conveniently categorized by country. Each country page on Voyage showcases a wealth of information, including detailed descriptions, captivating images, and nearby amenities such as hotels and restaurants.
+            </p>
+            <p>
+                But that's not all! Voyage is more than just a repository of travel information. It's a community where travelers share their experiences through reviews and ratings. Gain valuable insights from fellow adventurers to help plan your journey and make the most of your travels.
+            </p>
+            <p>
+                Our platform also boasts an advanced search functionality, allowing you to effortlessly find specific countries or tourist spots within your area of interest. Say goodbye to endless scrolling and hello to efficient travel planning!
+            </p>
+            <p>
+                In summary, Voyage offers travelers a seamless and informative experience, empowering you to make informed decisions and embark on unforgettable journeys. Join us and start exploring the world today!
+            </p>
+        </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+</body>
+</html>

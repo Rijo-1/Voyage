@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voyage - Home</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: #000; /* Black background */
+            color: #fff; /* White text */
+        }
+        .navbar {
+            background-color: #000; /* Black background for navbar */
+        }
+        .navbar-brand, .nav-link {
+            color: #f00 !important; /* Red text for links */
+        }
+        .navbar-brand {
+            font-weight: bold; /* Bold the Voyage text */
+        }
+        .navbar-brand:hover, .nav-link:hover {
+            color: #ff6347 !important; /* Lighter red on hover */
+        }
+        .title {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 48px;
+            color: #f00; /* Red title */
+            font-weight: bold; /* Bold title */
+        }
+        .description {
+            text-align: center;
+            margin: 20px auto;
+            max-width: 800px;
+            font-size: 18px;
+        }
+        .image-gallery {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin: 40px auto;
+            max-width: 1000px;
+        }
+        .image-gallery img {
+            width: 200px;
+            height: 150px;
+            object-fit: cover;
+            border: 2px solid #f00; /* Red border for images */
+        }
+        .image-gallery img:hover {
+            transform: scale(1.1);
+            transition: transform 0.2s;
+        }
+        .dropdown-menu {
+            margin-left: -100px;
+            /* margin-left: 15px; Adjust left padding */
+        }
+        .get_started{
+			color: rgb(0, 0, 0);
+			font-weight: 500;
+			background-color: #f00;
+			display: flex;
+			justify-content: center;
+			margin: 40px auto;
+			width: 170px;
+    		height: 40px;
+			text-align: center;
+			align-items: center;
+			border-radius: 25px;
+			
+		}
+
+		.get_started::after {
+            content: '→'; /* Unicode arrow character */
+            margin-left: 10px; /* Space between text and arrow */
+			
+        }
+		a{
+			text-decoration: none; /* Remove underline */
+		}
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="homepage.html">Voyage</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Help
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="mailto:voyage@gmail.com">Email: voyage@gmail.com</a></li>
+                            <li><a class="dropdown-item" href="tel:+1234567890">Phone: +91 9443447565</a></li>
+                        </ul>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="title">Voyage</div>
+    <div class="description">
+        Welcome to Voyage, your ultimate travel companion. Discover the best tourist destinations around the world, explore top attractions, and find the best hotels and restaurants. Embark on an unforgettable journey with us!
+    </div>
+
+    <div class="image-gallery">
+        <img src="./eiffel-tower-outro-stock.jpg" alt="Description of image 1">
+        <img src="./gondola-ride-in-autumn-in-kashmir-2023-10-18t174214.790-min.png" alt="Description of image 2">
+        <img src="./m_activities-agra-taj-mahal_l_400_640.avif" alt="Description of image 3">
+        <img src="./zurich1.avif" alt="Description of image 4">
+    </div>
+	<div >
+		<a href="login.php">
+			<button class="get_started">Get Started</button>
+		</a>
+	</div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+</body>
+</html>

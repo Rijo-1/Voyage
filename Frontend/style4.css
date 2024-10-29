@@ -1,0 +1,29 @@
+
+       .card {
+            margin-bottom: 30px;
+            margin-right: 15px;
+            margin-left: 15px;
+            border: 1px black; /* Match the box color */
+        }
+        .card-img-top {
+            object-fit: cover;
+            height: 200px;
+            width: 100%;
+        }
+        .recommendation .card {
+            background-color: black; /* Match the box color */
+            color: white;
+        }
+        .recommendation .card-body {
+            background-color: black; /* Match the box color */
+        }
+        /* Add margin to the columns to create space between them */
+        .row.justify-content-between > [class*="col-"] {
+            margin-right: 170px; /* Adjust the margin as needed */
+        }
+
+        /* Remove margin from the last column to avoid extra space */
+        .row.justify-content-between > [class*="col-"]:last-child {
+            margin-right: 0;
+        }
+

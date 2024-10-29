@@ -1,0 +1,83 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: black;
+}
+
+.about_us{
+	color: white;
+	padding: 23px;
+	font-size: 20px;
+	text-align: center;
+}
+
+.card{
+	flex: 0 0 auto;
+	width: 33.33333333%;
+	display: flex;
+	justify-content: center;
+	margin:auto;
+	background-color: #2b2a2a;
+	border: 2px solid #535353;
+}
+
+
+.row{
+	padding: 30px;
+}
+
+.card-title{
+	color: white;
+}
+
+.carousel-container {
+	height: 70vh; /* 50% of the viewport height */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+  .carousel-inner img {
+	height: 70vh;
+	object-fit: cover;
+	border-radius: 18px;
+  }
+  .carousel {
+	width: 85%;
+	margin: auto;
+	padding: 43px;
+  }
+
+  .description{
+	padding:23px ;
+	font-size: larger;
+	
+	
+  }
+
+  .container{
+	margin: 0px;
+  }
+  .details{
+	color: white;
+	padding: 30px;
+	font-size: larger;
+	
+  }
+  .reviews{
+	color: white;
+	padding: 25px;
+	font-size: larger;
+  }
+
+  .recommendation{
+	padding: 23px;
+	color: white;
+	font-size: larger;
+  }
+
+  
+
+ 
+  

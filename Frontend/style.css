@@ -1,0 +1,107 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: black;
+}
+.title{
+	color: red;
+   font-size: 75px;
+    text-align: center;
+    padding: 64px;
+    margin: auto;
+	padding-bottom: 20px;
+	font-weight: 102;
+}
+.subtitle{
+	color: #fbfbfb;
+    font-size: large;
+    text-align: center;
+	padding-bottom: 102px;
+    margin: auto;
+}
+.signup{
+	color: white;
+	font-size: 23px;
+	text-align: center;
+	display: block;
+}
+.carousel {
+	overflow: hidden;
+	width: 100%;
+	position: relative;
+  }
+  
+.carousel-inner {
+	display: flex;
+	transition: transform 0.5s ease-in-out;
+  }
+  
+.carousel-inner img {
+	width: 100%;
+	height: auto;
+  }
+  
+.head2{
+	text-align: center;
+	margin:15px;
+}
+
+.signin{
+	text-align: center;
+    display: block;
+    padding: 13px 0px 33px 0px;
+    border: 2px solid black;
+    margin: auto;
+    width: 25vw;
+    border-radius: 40px;
+}
+input{
+		width: 250px;
+		margin-bottom: 10px;
+		display: block;
+		padding:10px;
+		border-radius: 20px;
+		margin: auto;
+		width:220px;
+		display: flex;
+		position: relative;
+		top: 20px;
+
+	}
+
+.button1{
+		width: 250px;
+		margin-bottom: 10px;
+		display: block;
+		background-color: rgb(1, 191, 1);
+		padding:10px;
+		color: white;
+		border-radius: 20px;
+		margin: auto;
+		width: 245px;
+		display: block;
+		position: relative;
+		top: 39px;
+
+}
+.button2{
+	width: 250px;
+	margin-bottom: 10px;
+	display: block;
+	background-color: rgb(1, 191, 1);
+	padding:10px;
+	color: white;
+	border-radius: 20px;
+	margin: auto;
+	width: 245px;
+	display: block;
+	position: relative;
+	top: 22px;
+
+}
+a{
+	text-decoration: none; /* Remove underline */
+}
+
