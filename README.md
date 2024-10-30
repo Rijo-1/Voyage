@@ -79,6 +79,7 @@ Special thanks to all contributors to this project:
 
 - **Ravi N** ([GitHub](https://github.com/Ravinagraj01))
 - **Riya Jalan** ([GitHub](https://github.com/Riya-jalan))
+- **Rohan Maroli** ([GitHub](https://github.com/RohanMaroli))
 
 
 
